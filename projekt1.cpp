@@ -23,7 +23,7 @@ int main() {
         cout << "0. Wyjscie" << endl;
         cout << "1. Silnia" << endl;
         cin >> wyjscie;
-        if(wyjscie == 1){
+        if(wyjscie == 1){ // WCZESNIEJ TO DODALEM DO MENU CO TERAZ PANIKA POLECENIE 4 AAAAA
             cout << "Podaj liczbe ";
             cin >> k;
             cout << "Silnia z " << k << " to " << silnia(k) << endl;
